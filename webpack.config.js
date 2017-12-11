@@ -8,7 +8,7 @@ module.exports = {
   entry: './src/index.js',
 
   output: {
-    filename: 'app.[hash].js',
+    filename: 'bundle.js',
     path: path.resolve(__dirname, 'build')
   },
 
