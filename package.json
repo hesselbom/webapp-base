@@ -1,7 +1,6 @@
 {
   "name": "base",
   "version": "0.0.1",
-  "description": "SHOOT PEOPLE ONLINE!",
   "scripts": {
     "start": "webpack-dev-server --host 0.0.0.0 --content-base public/ --hot",
     "build": "NODE_ENV='production' webpack --progress --config webpack.prod.js"
